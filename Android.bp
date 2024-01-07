@@ -5,6 +5,6 @@
 
 soong_namespace {
     imports: [
-        "hardware/motorola",
+        "hardware/egistec/fingerprint",
     ],
 }

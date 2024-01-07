@@ -21,6 +21,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/motorola/bangkk',
+    'hardware/egistec/fingerprint',
     'hardware/motorola',
     'vendor/motorola/sm6375-common',
     'vendor/qcom/opensource/display',
