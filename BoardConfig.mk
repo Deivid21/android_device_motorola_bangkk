@@ -13,7 +13,7 @@ TARGET_BOOTLOADER_BOARD_NAME := bangkk
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=bangkk
-TARGET_KERNEL_CONFIG += vendor/lineage_bangkk.config
+TARGET_KERNEL_CONFIG += vendor/ext_config/moto-holi-bangkk.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
